@@ -4,6 +4,7 @@ pandas_datareader
 numpy
 seaborn
 matplotlib
-tensorflow
+#tensorflow
 scikit-learn
+#dill
 #-e .
