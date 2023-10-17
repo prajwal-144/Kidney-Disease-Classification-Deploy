@@ -1,5 +1,9 @@
 pandas
+pandas_ta
+pandas_datareader
 numpy
 seaborn
 matplotlib
--e .
+tensorflow
+scikit-learn
+#-e .
