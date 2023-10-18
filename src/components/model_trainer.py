@@ -42,17 +42,9 @@ class ModelTrainer:
             models = {
                 "LSTM": create_lstm_model(),
             }
-            '''
-            params={
-                "Decision Tree": {
-                    'criterion':['squared_error', 'friedman_mse', 'absolute_error', 'poisson'],
-                    # 'splitter':['best','random'],
-                    # 'max_features':['sqrt','log2'],
-                }            
-            }'''
 
             model_report:dict=evaluate_models(X_train=X_train,y_train=y_train,X_test=X_test,y_test=y_test,
-                                             models=models)#,param=params)
+                                             models=models)
             
             
             ## To get best model score from dict
@@ -79,9 +71,6 @@ class ModelTrainer:
             r2_square = r2_score(y_test, predicted)
             return r2_square
             
-
-
-
             
         except Exception as e:
             raise CustomException(e,sys)
