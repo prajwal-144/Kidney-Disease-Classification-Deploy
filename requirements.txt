@@ -6,5 +6,4 @@ seaborn
 matplotlib
 #tensorflow
 scikit-learn
-#dill
 #-e .
