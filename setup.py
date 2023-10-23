@@ -17,7 +17,7 @@ def get_requirements(file_path:str)->List[str]:
     return requirements
 
 setup(
-name='FOREX-Deployment',
+name='Kidney-Disease-Classification-Deploy',
 version='0.0.1',
 author='Prajwal',
 author_email='prajwal.uday@learner.manipal.edu',
