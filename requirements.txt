@@ -4,7 +4,18 @@ pandas_datareader
 numpy
 seaborn
 matplotlib
-tensorflow
+scipy
+tensorflow==2.12.0
 scikit-learn
-flask
+Flask
+Flask-Cors
+dvc
+mlflow==2.2.2
+python-box==6.0.2
+pyYAML
+tqdm
+ensure==1.0.2
+joblib
+types-PyYAML
+gdown
 #-e .
