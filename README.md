@@ -1,1 +1,1 @@
-# FOREX-Deployment
+# Kidney-Disease-Classification-Deployment
