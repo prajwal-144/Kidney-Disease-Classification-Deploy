@@ -37,7 +37,7 @@ class DataIngestion:
     def extract_zip_file(self):
         """
         zip_file_path: str
-        Extracts the zip file into data directory
+        Extracts the zip file into the data directory
         Function returns None
         """
         unzip_path = self.config.unzip_dir
