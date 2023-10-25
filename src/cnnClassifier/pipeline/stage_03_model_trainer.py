@@ -4,8 +4,7 @@ from cnnClassifier import logger
 
 
 
-STAGE_NAME = "Training"
-
+STAGE_NAME = "Training Stage"
 
 
 class ModelTrainingPipeline:
@@ -21,15 +20,13 @@ class ModelTrainingPipeline:
         training.train()
 
 
-
 if __name__ == '__main__':
     try:
         logger.info(f"*******************")
         logger.info(f"------ {STAGE_NAME} started ------")
         obj = ModelTrainingPipeline()
         obj.main()
-        logger.info(f"------ stage {STAGE_NAME} completed ------\n\n==========")
+        logger.info(f"------ {STAGE_NAME} completed ------\n\n==========")
     except Exception as e:
         logger.exception(e)
         raise e
-        
