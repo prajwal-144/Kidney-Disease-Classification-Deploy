@@ -66,5 +66,6 @@ class Evaluation:
             if tracking_url_type_store != "file":
 
                 # Register the modelG16Model")
+                mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model")
             else:
                 mlflow.keras.log_model(self.model, "model")
