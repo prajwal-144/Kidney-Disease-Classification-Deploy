@@ -1,7 +1,7 @@
 # Kidney-Disease-Classification-Deployment
 
 * Kidney Tumor Classification using VGG16
-* Integrate it with *MLFlow* for experiments tracking and model registration.
+* Integrate it with *MLFlow* for experiments tracking, monitoring, logging and model registration.
 * Used *DVC (Data Version Control)* for pipeline tracking and implementation.
 * Used *Flask* web framework for user app creation.
 * *Docker* for containerization.
